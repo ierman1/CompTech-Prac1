@@ -17,34 +17,21 @@ def BFS(lab:Labyrinth):
     pending = [] 
     
     #TODO
-    pending.append(lab.getStartCell())      # pending = [(1,1)]
+    pending.append([lab.getStartCell()])
+    visited.append(lab.getStartCell())
 
     while len(pending) != 0:
-        
-        # =================== DEBUG =================== #
-        print("\n======\nChecking => " + pending[0].__repr__() + "\nPending at the start => ", end = '')
-        for p in pending:
-            print(p.__repr__() + " ", end = '')
-        # =================== DEBUG =================== #
 
-        '''
-            1. - Guardem la primera posició de la llista de pendents i l'eliminem de la llista
-            2. - Iterem per les caselles veínes, i si són vàlides, les desem a pendents
-        '''
+        tmp = pending.pop(0)
 
-        tmp = pending[0]                    # tmp = [(1,1)] => [(1,2)]
-        visited.append(pending[0])          # visited = [(1,1)] => [(1,1), (1,2)]
-        pending = pending[1:]               # pending = [] => [(2,1)]
+        if (tmp[-1] == lab.getEndCell()):
+            trail = tmp
+            break
 
-        for c in tmp.getChildren():
+        for c in tmp[-1].getChildren():
             if c not in visited:
-                pending.append(c)           # pending = [(1,2), (2,1)] => [(2,1),(1,3)]
-
-        # =================== DEBUG =================== #
-        print("\nPending at the end => ", end = '')
-        for p in pending:
-            print(p.__repr__() + " ", end = '')
-        # =================== DEBUG =================== #
+                pending.append(tmp + [c])
+                visited.append(c)
 
     return trail
 
