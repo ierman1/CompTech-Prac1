@@ -12,14 +12,21 @@ def DFS(lab:Labyrinth):
 #iteratiu
 def BFS(lab:Labyrinth):
     print('Starting BFS')
+    
     trail = []
     visited = []
-    pending = [] 
+    pending = []
     
     #TODO
     pending.append([lab.getStartCell()])
     visited.append(lab.getStartCell())
 
+    '''
+        Gestionem la pila (pending) i l'anem omplint amb les pròximes cel·les
+        a visitar. A la vegada les afegim a la llista de visitades per no repetir-les.
+        El format de la pila de pendents és una array d'arrays, amb els camins
+        necessaris per arribar a la cel·la de l'última posició.
+    '''
     while len(pending) != 0:
 
         tmp = pending.pop(0)
