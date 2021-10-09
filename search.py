@@ -1,23 +1,37 @@
-from labyrinth import Labyrinth
+from labyrinth import Labyrinth, Cell
+
+def keepSearching(c:Cell, lab:Labyrinth, trail, visited):
+
+    visited.append(c)
+
+    if c == lab.getEndCell():
+        return trail + [c]
+
+    for child in c.getChildren():
+        if child not in visited:
+            return keepSearching(child, lab, trail + [c], visited)
+    
+    return keepSearching(trail[-2], lab, trail[:-2], visited)
 
 #recursiu
 def DFS(lab:Labyrinth):
     print('Starting DFS')
+    
     trail = []
+    visited = []
 
-    #TODO
+    trail = keepSearching(lab.getStartCell(), lab, trail, visited)
 
     return trail
 
 #iteratiu
 def BFS(lab:Labyrinth):
     print('Starting BFS')
-    
+
     trail = []
     visited = []
     pending = []
     
-    #TODO
     pending.append([lab.getStartCell()])
     visited.append(lab.getStartCell())
 
