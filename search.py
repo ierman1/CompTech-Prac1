@@ -2,13 +2,12 @@ from labyrinth import Labyrinth, Cell
 
 def keepSearching(c:Cell, lab:Labyrinth, trail, visited):
 
-    visited.append(c)
-
     if c == lab.getEndCell():
         return trail + [c]
 
     for child in c.getChildren():
         if child not in visited:
+            visited.append(child) 
             return keepSearching(child, lab, trail + [c], visited)
     
     return keepSearching(trail[-2], lab, trail[:-2], visited)
@@ -20,6 +19,7 @@ def DFS(lab:Labyrinth):
     trail = []
     visited = []
 
+    visited.append(lab.getStartCell())
     trail = keepSearching(lab.getStartCell(), lab, trail, visited)
 
     return trail
