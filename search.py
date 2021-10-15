@@ -2,16 +2,27 @@ from labyrinth import Labyrinth, Cell
 
 def keepSearching(c:Cell, lab:Labyrinth, trail, visited):
 
+    ''' A mesura que accedim a aquesta funció, s'afegeix al trail la cel·la actual. '''
     trail.append(c)
 
     if c == lab.getEndCell():
         return trail
 
+
+    '''
+        Una vegada afegida, accedim a la primera cel·la veína que no hagi sigut visitada "X"
+        i executem un altre cop la funció prenent com a cel·la actual "X".
+    '''
     for child in c.getChildren():
         if child not in visited:
             visited.append(child) 
             return keepSearching(child, lab, trail, visited)
     
+    '''
+        En el moment en que trobem una cel·la que no té d'altres cel·les veínes no visitades,
+        sortim del bucle i executem la funció, prenent com a cel·la actual el pare de l'anterior,
+        fent així "backtracking".
+    '''
     return keepSearching(trail[-2], lab, trail[:-2], visited)
 
 #recursiu
