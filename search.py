@@ -2,27 +2,22 @@ from labyrinth import Labyrinth, Cell
 
 def keepSearching(c:Cell, lab:Labyrinth, trail, visited):
 
+    trail.append(c)
+
     if c == lab.getEndCell():
-        return trail + [c]
+        return trail
 
     for child in c.getChildren():
         if child not in visited:
             visited.append(child) 
-            return keepSearching(child, lab, trail + [c], visited)
+            return keepSearching(child, lab, trail, visited)
     
     return keepSearching(trail[-2], lab, trail[:-2], visited)
 
 #recursiu
 def DFS(lab:Labyrinth):
     print('Starting DFS')
-    
-    trail = []
-    visited = []
-
-    visited.append(lab.getStartCell())
-    trail = keepSearching(lab.getStartCell(), lab, trail, visited)
-
-    return trail
+    return keepSearching(lab.getStartCell(), lab, [], [])
 
 #iteratiu
 def BFS(lab:Labyrinth):
