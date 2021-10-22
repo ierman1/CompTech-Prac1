@@ -8,7 +8,6 @@ def keepSearching(c:Cell, lab:Labyrinth, trail, visited):
     if c == lab.getEndCell():
         return trail
 
-
     '''
         Una vegada afegida, accedim a la primera cel·la veína que no hagi sigut visitada "X"
         i executem un altre cop la funció prenent com a cel·la actual "X".
@@ -28,7 +27,7 @@ def keepSearching(c:Cell, lab:Labyrinth, trail, visited):
 #recursiu
 def DFS(lab:Labyrinth):
     print('Starting DFS')
-    return keepSearching(lab.getStartCell(), lab, [], [])
+    return keepSearching(lab.getStartCell(), lab, [], [lab.getStartCell()])
 
 #iteratiu
 def BFS(lab:Labyrinth):
