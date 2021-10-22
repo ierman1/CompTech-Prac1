@@ -1,0 +1,324 @@
+﻿##############
+#____________#
+#____##__###_#
+#__#_#S#__##_#
+#__#____#__#E#
+##############
+Starting BFS
+**** Queue popped: (6, 3)
++++ Processing child: (6, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (6, 4)
+**** All childs processed: (6, 3)
+**** Queue popped: (6, 4)
++++ Processing child: (5, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (5, 4)
++++ Processing child: (7, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (7, 4)
++++ Processing child: (6, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (6, 3)
+**** All childs processed: (6, 4)
+**** Queue popped: (5, 4)
++++ Processing child: (4, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (4, 4)
++++ Processing child: (6, 4)
+-- Child is already visited: Nothing to do
++++ Child processed: (6, 4)
+**** All childs processed: (5, 4)
+**** Queue popped: (7, 4)
++++ Processing child: (6, 4)
+-- Child is already visited: Nothing to do
++++ Child processed: (6, 4)
+**** All childs processed: (7, 4)
+**** Queue popped: (4, 4)
++++ Processing child: (5, 4)
+-- Child is already visited: Nothing to do
++++ Child processed: (5, 4)
++++ Processing child: (4, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (4, 3)
+**** All childs processed: (4, 4)
+**** Queue popped: (4, 3)
++++ Processing child: (4, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (4, 2)
++++ Processing child: (4, 4)
+-- Child is already visited: Nothing to do
++++ Child processed: (4, 4)
+**** All childs processed: (4, 3)
+**** Queue popped: (4, 2)
++++ Processing child: (3, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 2)
++++ Processing child: (4, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (4, 1)
++++ Processing child: (4, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (4, 3)
+**** All childs processed: (4, 2)
+**** Queue popped: (3, 2)
++++ Processing child: (2, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 2)
++++ Processing child: (4, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (4, 2)
++++ Processing child: (3, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 1)
+**** All childs processed: (3, 2)
+**** Queue popped: (4, 1)
++++ Processing child: (3, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 1)
++++ Processing child: (5, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (5, 1)
++++ Processing child: (4, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (4, 2)
+**** All childs processed: (4, 1)
+**** Queue popped: (2, 2)
++++ Processing child: (1, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 2)
++++ Processing child: (3, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (3, 2)
++++ Processing child: (2, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 1)
++++ Processing child: (2, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 3)
+**** All childs processed: (2, 2)
+**** Queue popped: (3, 1)
++++ Processing child: (2, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 1)
++++ Processing child: (4, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (4, 1)
++++ Processing child: (3, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (3, 2)
+**** All childs processed: (3, 1)
+**** Queue popped: (3, 1)
+**** Already visited: (3, 1)
+**** Queue popped: (5, 1)
++++ Processing child: (4, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (4, 1)
++++ Processing child: (6, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (6, 1)
+**** All childs processed: (5, 1)
+**** Queue popped: (1, 2)
++++ Processing child: (2, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 2)
++++ Processing child: (1, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 1)
++++ Processing child: (1, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 3)
+**** All childs processed: (1, 2)
+**** Queue popped: (2, 1)
++++ Processing child: (1, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 1)
++++ Processing child: (3, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (3, 1)
++++ Processing child: (2, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 2)
+**** All childs processed: (2, 1)
+**** Queue popped: (2, 3)
++++ Processing child: (1, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 3)
++++ Processing child: (2, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 2)
++++ Processing child: (2, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 4)
+**** All childs processed: (2, 3)
+**** Queue popped: (2, 1)
+**** Already visited: (2, 1)
+**** Queue popped: (6, 1)
++++ Processing child: (5, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (5, 1)
++++ Processing child: (7, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (7, 1)
+**** All childs processed: (6, 1)
+**** Queue popped: (1, 1)
++++ Processing child: (2, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 1)
++++ Processing child: (1, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 2)
+**** All childs processed: (1, 1)
+**** Queue popped: (1, 3)
++++ Processing child: (2, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 3)
++++ Processing child: (1, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 2)
++++ Processing child: (1, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 4)
+**** All childs processed: (1, 3)
+**** Queue popped: (1, 1)
+**** Already visited: (1, 1)
+**** Queue popped: (1, 3)
+**** Already visited: (1, 3)
+**** Queue popped: (2, 4)
++++ Processing child: (1, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 4)
++++ Processing child: (2, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 3)
+**** All childs processed: (2, 4)
+**** Queue popped: (7, 1)
++++ Processing child: (6, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (6, 1)
++++ Processing child: (8, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (8, 1)
++++ Processing child: (7, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (7, 2)
+**** All childs processed: (7, 1)
+**** Queue popped: (1, 4)
++++ Processing child: (2, 4)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 4)
++++ Processing child: (1, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 3)
+**** All childs processed: (1, 4)
+**** Queue popped: (1, 4)
+**** Already visited: (1, 4)
+**** Queue popped: (8, 1)
++++ Processing child: (7, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (7, 1)
++++ Processing child: (9, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (9, 1)
++++ Processing child: (8, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (8, 2)
+**** All childs processed: (8, 1)
+**** Queue popped: (7, 2)
++++ Processing child: (8, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (8, 2)
++++ Processing child: (7, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (7, 1)
+**** All childs processed: (7, 2)
+**** Queue popped: (9, 1)
++++ Processing child: (8, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (8, 1)
++++ Processing child: (10, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (10, 1)
+**** All childs processed: (9, 1)
+**** Queue popped: (8, 2)
++++ Processing child: (7, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (7, 2)
++++ Processing child: (8, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (8, 1)
++++ Processing child: (8, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (8, 3)
+**** All childs processed: (8, 2)
+**** Queue popped: (8, 2)
+**** Already visited: (8, 2)
+**** Queue popped: (10, 1)
++++ Processing child: (9, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (9, 1)
++++ Processing child: (11, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (11, 1)
+**** All childs processed: (10, 1)
+**** Queue popped: (8, 3)
++++ Processing child: (9, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (9, 3)
++++ Processing child: (8, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (8, 2)
+**** All childs processed: (8, 3)
+**** Queue popped: (11, 1)
++++ Processing child: (10, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (10, 1)
++++ Processing child: (12, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (12, 1)
+**** All childs processed: (11, 1)
+**** Queue popped: (9, 3)
++++ Processing child: (8, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (8, 3)
++++ Processing child: (9, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (9, 4)
+**** All childs processed: (9, 3)
+**** Queue popped: (12, 1)
++++ Processing child: (11, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (11, 1)
++++ Processing child: (12, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (12, 2)
+**** All childs processed: (12, 1)
+**** Queue popped: (9, 4)
++++ Processing child: (10, 4)
+-- Child has not been visited: Added to queue
++++ Child processed: (10, 4)
++++ Processing child: (9, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (9, 3)
+**** All childs processed: (9, 4)
+**** Queue popped: (12, 2)
++++ Processing child: (12, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (12, 1)
++++ Processing child: (12, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (12, 3)
+**** All childs processed: (12, 2)
+**** Queue popped: (10, 4)
++++ Processing child: (9, 4)
+-- Child is already visited: Nothing to do
++++ Child processed: (9, 4)
+**** All childs processed: (10, 4)
+**** Queue popped: (12, 3)
++++ Processing child: (12, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (12, 2)
++++ Processing child: (12, 4)
+-- Child is End: Path found
+BFS found solution that has 18 steps:
+[(6, 3), (6, 4), (5, 4), (4, 4), (4, 3), (4, 2), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (12, 2), (12, 3), (12, 4)]

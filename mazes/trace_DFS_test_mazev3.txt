@@ -1,0 +1,252 @@
+﻿#####################
+#_S_#___#___#___#___#
+#_#_#_#_#_#_#_#_#_#_#
+#___#_#_#_#_#_#_#_#_#
+#_#___#___#___#___#E#
+#####################
+Starting DFS
+**** Stack popped: (2, 1)
++++ Processing child: (1, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (1, 1)
++++ Processing child: (2, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (2, 1)
++++ Processing child: (1, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (1, 2)
++++ Processing child: (1, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (1, 1)
++++ Processing child: (1, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (1, 3)
++++ Processing child: (2, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (2, 3)
++++ Processing child: (1, 3)
+-- Child is already visited: Nothing to do
++++ Child Processed: (1, 3)
++++ Processing child: (3, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (3, 3)
++++ Processing child: (2, 3)
+-- Child is already visited: Nothing to do
++++ Child Processed: (2, 3)
++++ Processing child: (3, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (3, 2)
++++ Processing child: (3, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (3, 1)
++++ Processing child: (2, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (2, 1)
++++ Processing child: (3, 2)
+-- Child is already visited: Nothing to do
++++ Child Processed: (3, 2)
+**** All childs processed: (3, 1)
++++ Child Processed: (3, 1)
++++ Processing child: (3, 3)
+-- Child is already visited: Nothing to do
++++ Child Processed: (3, 3)
+**** All childs processed: (3, 2)
++++ Child Processed: (3, 2)
++++ Processing child: (3, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (3, 4)
++++ Processing child: (4, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (4, 4)
++++ Processing child: (3, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (3, 4)
++++ Processing child: (5, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (5, 4)
++++ Processing child: (4, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (4, 4)
++++ Processing child: (5, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (5, 3)
++++ Processing child: (5, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (5, 2)
++++ Processing child: (5, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (5, 1)
++++ Processing child: (6, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (6, 1)
++++ Processing child: (5, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (5, 1)
++++ Processing child: (7, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (7, 1)
++++ Processing child: (6, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (6, 1)
++++ Processing child: (7, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (7, 2)
++++ Processing child: (7, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (7, 1)
++++ Processing child: (7, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (7, 3)
++++ Processing child: (7, 2)
+-- Child is already visited: Nothing to do
++++ Child Processed: (7, 2)
++++ Processing child: (7, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (7, 4)
++++ Processing child: (8, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (8, 4)
++++ Processing child: (7, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (7, 4)
++++ Processing child: (9, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (9, 4)
++++ Processing child: (8, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (8, 4)
++++ Processing child: (9, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (9, 3)
++++ Processing child: (9, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (9, 2)
++++ Processing child: (9, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (9, 1)
++++ Processing child: (10, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (10, 1)
++++ Processing child: (9, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (9, 1)
++++ Processing child: (11, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (11, 1)
++++ Processing child: (10, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (10, 1)
++++ Processing child: (11, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (11, 2)
++++ Processing child: (11, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (11, 1)
++++ Processing child: (11, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (11, 3)
++++ Processing child: (11, 2)
+-- Child is already visited: Nothing to do
++++ Child Processed: (11, 2)
++++ Processing child: (11, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (11, 4)
++++ Processing child: (12, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (12, 4)
++++ Processing child: (11, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (11, 4)
++++ Processing child: (13, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (13, 4)
++++ Processing child: (12, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (12, 4)
++++ Processing child: (13, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (13, 3)
++++ Processing child: (13, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (13, 2)
++++ Processing child: (13, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (13, 1)
++++ Processing child: (14, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (14, 1)
++++ Processing child: (13, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (13, 1)
++++ Processing child: (15, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (15, 1)
++++ Processing child: (14, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (14, 1)
++++ Processing child: (15, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (15, 2)
++++ Processing child: (15, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (15, 1)
++++ Processing child: (15, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (15, 3)
++++ Processing child: (15, 2)
+-- Child is already visited: Nothing to do
++++ Child Processed: (15, 2)
++++ Processing child: (15, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (15, 4)
++++ Processing child: (16, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (16, 4)
++++ Processing child: (15, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (15, 4)
++++ Processing child: (17, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (17, 4)
++++ Processing child: (16, 4)
+-- Child is already visited: Nothing to do
++++ Child Processed: (16, 4)
++++ Processing child: (17, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (17, 3)
++++ Processing child: (17, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (17, 2)
++++ Processing child: (17, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (17, 1)
++++ Processing child: (18, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (18, 1)
++++ Processing child: (17, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (17, 1)
++++ Processing child: (19, 1)
+-- Child has not been visited: Added to stack
+**** Stack popped: (19, 1)
++++ Processing child: (18, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (18, 1)
++++ Processing child: (19, 2)
+-- Child has not been visited: Added to stack
+**** Stack popped: (19, 2)
++++ Processing child: (19, 1)
+-- Child is already visited: Nothing to do
++++ Child Processed: (19, 1)
++++ Processing child: (19, 3)
+-- Child has not been visited: Added to stack
+**** Stack popped: (19, 3)
++++ Processing child: (19, 2)
+-- Child is already visited: Nothing to do
++++ Child Processed: (19, 2)
++++ Processing child: (19, 4)
+-- Child has not been visited: Added to stack
+**** Stack popped: (19, 4)
+-- Child is End: Path found
+DFS found solution that has 47 steps:
+[(2, 1), (1, 1), (1, 2), (1, 3), (2, 3), (3, 3), (3, 4), (4, 4), (5, 4), (5, 3), (5, 2), (5, 1), (6, 1), (7, 1), (7, 2), (7, 3), (7, 4), (8, 4), (9, 4), (9, 3), (9, 2), (9, 1), (10, 1), (11, 1), (11, 2), (11, 3), (11, 4), (12, 4), (13, 4), (13, 3), (13, 2), (13, 1), (14, 1), (15, 1), (15, 2), (15, 3), (15, 4), (16, 4), (17, 4), (17, 3), (17, 2), (17, 1), (18, 1), (19, 1), (19, 2), (19, 3), (19, 4)]

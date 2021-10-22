@@ -1,0 +1,119 @@
+﻿######
+#S___#
+#____#
+#___E#
+######
+Starting BFS
+**** Queue popped: (1, 1)
++++ Processing child: (2, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 1)
++++ Processing child: (1, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 2)
+**** All childs processed: (1, 1)
+**** Queue popped: (2, 1)
++++ Processing child: (1, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 1)
++++ Processing child: (3, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 1)
++++ Processing child: (2, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 2)
+**** All childs processed: (2, 1)
+**** Queue popped: (1, 2)
++++ Processing child: (2, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 2)
++++ Processing child: (1, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 1)
++++ Processing child: (1, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (1, 3)
+**** All childs processed: (1, 2)
+**** Queue popped: (3, 1)
++++ Processing child: (2, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 1)
++++ Processing child: (4, 1)
+-- Child has not been visited: Added to queue
++++ Child processed: (4, 1)
++++ Processing child: (3, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 2)
+**** All childs processed: (3, 1)
+**** Queue popped: (2, 2)
++++ Processing child: (1, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 2)
++++ Processing child: (3, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 2)
++++ Processing child: (2, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 1)
++++ Processing child: (2, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 3)
+**** All childs processed: (2, 2)
+**** Queue popped: (2, 2)
+**** Already visited: (2, 2)
+**** Queue popped: (1, 3)
++++ Processing child: (2, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (2, 3)
++++ Processing child: (1, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 2)
+**** All childs processed: (1, 3)
+**** Queue popped: (4, 1)
++++ Processing child: (3, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (3, 1)
++++ Processing child: (4, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (4, 2)
+**** All childs processed: (4, 1)
+**** Queue popped: (3, 2)
++++ Processing child: (2, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 2)
++++ Processing child: (4, 2)
+-- Child has not been visited: Added to queue
++++ Child processed: (4, 2)
++++ Processing child: (3, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (3, 1)
++++ Processing child: (3, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 3)
+**** All childs processed: (3, 2)
+**** Queue popped: (3, 2)
+**** Already visited: (3, 2)
+**** Queue popped: (2, 3)
++++ Processing child: (1, 3)
+-- Child is already visited: Nothing to do
++++ Child processed: (1, 3)
++++ Processing child: (3, 3)
+-- Child has not been visited: Added to queue
++++ Child processed: (3, 3)
++++ Processing child: (2, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (2, 2)
+**** All childs processed: (2, 3)
+**** Queue popped: (2, 3)
+**** Already visited: (2, 3)
+**** Queue popped: (4, 2)
++++ Processing child: (3, 2)
+-- Child is already visited: Nothing to do
++++ Child processed: (3, 2)
++++ Processing child: (4, 1)
+-- Child is already visited: Nothing to do
++++ Child processed: (4, 1)
++++ Processing child: (4, 3)
+-- Child is End: Path found
+BFS found solution that has 6 steps:
+[(1, 1), (2, 1), (3, 1), (4, 1), (4, 2), (4, 3)]
